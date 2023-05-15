@@ -1,0 +1,17 @@
+{
+  "name": "learningNightwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^112.0.0",
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.6.20"
+  }
+}
