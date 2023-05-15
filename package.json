@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx nightwatch"
+    "test": "npx nightwatch && cp ../learningNightwatch/tests_output/nightwatch-html-report/index.html ../learningNightwatch"
   },
   "keywords": [],
   "author": "",

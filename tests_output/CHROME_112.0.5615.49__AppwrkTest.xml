@@ -5,22 +5,22 @@
 
   <testsuite name="AppwrkTest"
     errors="0" failures="0" hostname="" id="" package="AppwrkTest" skipped="0"
-    tests="4" time="49.02" timestamp="">
+    tests="4" time="37.94" timestamp="">
   
-    <testcase name="Appwrk Test" classname="AppwrkTest" time="30.14" assertions="1">
+    <testcase name="Appwrk Test" classname="AppwrkTest" time="14.64" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Contact Me" classname="AppwrkTest" time="7.329" assertions="1">
+    <testcase name="Contact Me" classname="AppwrkTest" time="7.002" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Fill in the Form" classname="AppwrkTest" time="6.083" assertions="0">
+    <testcase name="Fill in the Form" classname="AppwrkTest" time="5.755" assertions="0">
     </testcase>
   
-    <testcase name="Verify The Filled Form" classname="AppwrkTest" time="5.474" assertions="1">
+    <testcase name="Verify The Filled Form" classname="AppwrkTest" time="10.54" assertions="1">
 
     
     </testcase>
