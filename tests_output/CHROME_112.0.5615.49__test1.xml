@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="test1"
     errors="0" failures="0" hostname="" id="" package="test1" skipped="0"
-    tests="1" time="8.176" timestamp="">
+    tests="2" time="42.43" timestamp="">
   
-    <testcase name="Appwrk Test" classname="test1" time="8.176" assertions="0">
+    <testcase name="Appwrk Test" classname="test1" time="34.57" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Contact Me" classname="test1" time="7.859" assertions="1">
+
+    
     </testcase>
   
 
