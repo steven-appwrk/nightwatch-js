@@ -2,7 +2,7 @@ module.exports = {
     "Appwrk Test": browser => {
         browser.url("https://appwrk.com/")
         browser.windowMaximize()
-        browser.pause(3 * 1000)
+        browser.pause(3000)
         const hireDev = "//a[@class='default-btn ml-0 btn-arrow']"
         browser.useXpath()
         browser.click(hireDev)
@@ -10,12 +10,12 @@ module.exports = {
     },
     "Contact Me": browser => {
         this["Appwrk Test"]
-        browser.pause(2 * 1000)
+        browser.pause(2000)
         browser.click("//img[@title='APPWRK IT Solutions Pvt. Ltd.- Logo']")
-        browser.pause(2 * 1000)
+        browser.pause(2000)
         const requestQuote = "//a[@id='request_a_quote_header']"
         browser.click(requestQuote)
-        browser.pause(2 * 1000)
+        browser.pause(2000)
         browser.assert.elementPresent(`//*[@id="expertConsultForm_header"]`)
     },
     "Fill in the Form": browser => {
@@ -35,7 +35,7 @@ module.exports = {
             .setValue(phoneNumber, "7894561230")
             .setValue(briefAboutProject, "There's no brief available about the project")
             .setValue(projectLink, "Not Applicable")
-        browser.pause(5 * 1000)
+        browser.pause(5000)
             .click(submitButton)
     },
     "Verify The Filled Form": browser => {
