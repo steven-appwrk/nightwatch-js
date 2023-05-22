@@ -17,8 +17,9 @@ module.exports = {
   // if this is not specified, the test source must be passed as the second argument to the test runner.
   src_folders: ["./tests"],
 
+
   // See https://nightwatchjs.org/guide/concepts/page-object-model.html
-  page_objects_path: ['node_modules/nightwatch/examples/pages/'],
+  page_objects_path: ["./pageObjects"],
 
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-commands.html
   custom_commands_path: ['node_modules/nightwatch/examples/custom-commands/'],
@@ -97,7 +98,7 @@ module.exports = {
             //'--no-sandbox',
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
-            //'--headless'
+            '--headless'
           ]
         }
       },
