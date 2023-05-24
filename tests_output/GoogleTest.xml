@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="GoogleTest"
+    errors="1" failures="0" hostname="" id="" package="GoogleTest" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new Selenium Server session: [WebDriverError] Invalid username or password
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Google Search Form Test" classname="GoogleTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

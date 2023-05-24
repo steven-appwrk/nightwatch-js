@@ -178,9 +178,13 @@ module.exports = {
       // More info on configuring capabilities can be found on:
       // https://www.browserstack.com/automate/capabilities?tag=selenium-4
       desiredCapabilities: {
+        // browserName: 'safari', // Specify Safari as the browser
+        // browserVersion: 'latest', // Desired Safari browser version
+        // os: 'OS X', // Specify macOS as the operating system
+        // os_version: 'Big Sur',
         'bstack:options': {
-          userName: '${BROWSERSTACK_USERNAME}',
-          accessKey: '${BROWSERSTACK_ACCESS_KEY}',
+          userName: 'stevens_lyNdgE',
+          accessKey: 'Md2i8AAnSgzTdzT5yzqP',
         }
       },
 
